@@ -1,0 +1,14 @@
+name: NewObjects
+main: ru.newplugin.newobjects.Main
+api-version: 1.16
+version: 1.0.0
+author: BlusteryS
+
+commands:
+  object:
+    description: Управление объектами
+    permission: newplugin.object
+
+permissions:
+  newplugin.object:
+    default: op
